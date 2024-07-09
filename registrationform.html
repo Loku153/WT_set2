@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation Example</title>
+    <script src="validation.js"></script>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form onsubmit="return validateForm()" novalidate>
+        First Name: <input type="text" id="firstName" name="firstName"><br>
+        Last Name: <input type="text" id="lastName" name="lastName"><br>
+        Password: <input type="password" id="password" name="password"><br>
+        Email: <input type="email" id="email" name="email"><br>
+        Phone Number: <input type="text" id="phoneNumber" name="phoneNumber"><br>
+        Address: <input type="text" id="address" name="address"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
